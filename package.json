@@ -10,15 +10,21 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "type": "commonjs",
+    "type": "module",
     "devDependencies": {
         "@types/express": "^5.0.6",
         "@types/node": "^22.20.2",
         "prettier": "3.9.6",
+        "prisma": "^4.13.0",
         "tsx": "^4.23.13",
         "typescript": "^7.0.2"
     },
     "dependencies": {
+        "@prisma/client": "^4.13.0",
         "express": "^5.2.1"
+    },
+    "allowScripts": {
+        "msgpackr-extract@3.0.4": true,
+        "workerd@1.20260704.1": true
     }
 }
